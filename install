@@ -1,0 +1,14 @@
+#!/bin/sh
+
+[ "$(id -u)" -eq 0 ] || {
+	echo "please run as root"
+	exit 1
+}
+
+git pull --rebase --prune
+git submodule update --init --recursive
+git submodule update --remote --merge
+
+for dir in 'git' 'mpd' 'ncmpcpp' 'nvim' 'picom' 'vifm' 'zsh'; do
+	cp -rv "$(dirname "$0")/$dir" /etc/
+done
