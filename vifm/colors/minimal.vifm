@@ -1,0 +1,28 @@
+highlight clear
+
+highlight Win cterm=none ctermfg=white ctermbg=none
+highlight Directory cterm=bold ctermfg=blue ctermbg=default
+highlight Link cterm=bold ctermfg=red ctermbg=default
+highlight BrokenLink cterm=bold ctermfg=red ctermbg=default
+highlight Socket cterm=bold ctermfg=green ctermbg=default
+highlight Device cterm=bold ctermfg=red ctermbg=default
+highlight Fifo cterm=bold ctermfg=green ctermbg=default
+highlight Executable cterm=none ctermfg=green ctermbg=default
+highlight Selected cterm=none ctermfg=white ctermbg=black
+highlight CurrLine cterm=reverse
+highlight TopLine cterm=none ctermfg=white ctermbg=none
+highlight TopLineSel cterm=bold ctermfg=cyan ctermbg=none
+highlight StatusLine cterm=none ctermfg=white ctermbg=none
+highlight WildMenu cterm=reverse ctermfg=white ctermbg=black
+highlight CmdLine cterm=none ctermfg=white ctermbg=none
+highlight ErrorMsg cterm=none ctermfg=red ctermbg=none
+highlight Border cterm=none ctermfg=black ctermbg=none
+highlight JobLine cterm=bold,reverse ctermfg=black ctermbg=white
+highlight SuggestBox cterm=bold ctermfg=white ctermbg=default
+highlight CmpMismatch cterm=bold ctermfg=white ctermbg=red
+highlight AuxWin cterm=bold,reverse ctermfg=default ctermbg=default
+
+highlight /^.*\.(cfg|conf|diff|doc|ini|log|patch|pdf|ps|tex|txt)$/I cterm=none ctermfg=green ctermbg=default
+highlight /^.*\.(aac|au|flac|m4a|mid|midi|mka|mp3|mpc|oga|ogg|opus|ra|spx|wav|xspf)$/I cterm=none ctermfg=cyan ctermbg=default
+highlight /^.*\.(7z|ace|alz|arc|arj|bz|bz2|cab|cpio|deb|dwm|dz|ear|esd|gz|jar|lha|lrz|lz|lz4|lzh|lzma|lzo|rar|rpm|rz|sar|swm|t7z|tar|taz|tbz|tbz2|tgz|tlz|txz|tz|tzo|tzst|war|wim|xz|z|zip|zoo|zst)$/I cterm=bold ctermfg=red ctermbg=default
+highlight /^.*\.(asf|avi|bmp|cgm|dl|emf|flc|fli|flv|gif|gl|jpeg|jpg|m2v|m4v|mjpeg|mjpg|mkv|mng|mov|mp4|mp4v|mpeg|mpg|nuv|ogm|ogv|ogx|pbm|pcx|pgm|png|ppm|qt|rm|rmvb|svg|svgz|tga|tif|tiff|vob|webm|webp|wmv|xbm|xcf|xpm|xwd|yuv)$/I cterm=bold ctermfg=magenta ctermbg=default
