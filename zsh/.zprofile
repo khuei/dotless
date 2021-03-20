@@ -30,6 +30,8 @@ elif [ "$(command -v more)" ]; then
 	export PAGER=more
 fi
 
+export XDG_CONFIG_DIRS=/etc
+
 export DISABLE_UPDATE_PROMPT=true
 
 export GPG_TTY=$(tty)
